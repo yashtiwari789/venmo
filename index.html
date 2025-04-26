@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Venmo Help Guide</title>
+    <title>Venmo Help Guide - Unofficial Resource</title>
     <style>
         /* CSS Reset */
         * {
@@ -296,51 +296,19 @@
             padding: 0 20px 20px;
         }
 
-        /* Contact Section */
-        .contact-section {
+        /* Official Link Section */
+        .official-section {
             background: white;
+            text-align: center;
         }
 
-        .contact-form {
-            max-width: 600px;
-            margin: 0 auto;
+        .official-box {
             background: var(--venmo-light);
-            padding: 40px;
             border-radius: 10px;
+            padding: 40px;
+            max-width: 800px;
+            margin: 0 auto;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
-        }
-
-        .form-group {
-            margin-bottom: 20px;
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: 8px;
-            font-weight: 600;
-        }
-
-        .form-group input,
-        .form-group textarea,
-        .form-group select {
-            width: 100%;
-            padding: 12px 15px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 16px;
-            transition: border 0.3s;
-        }
-
-        .form-group input:focus,
-        .form-group textarea:focus,
-        .form-group select:focus {
-            border-color: var(--venmo-blue);
-            outline: none;
-        }
-
-        .form-group textarea {
-            min-height: 120px;
-            resize: vertical;
         }
 
         /* Footer */
@@ -485,8 +453,7 @@
                 <ul class="nav-links" id="navLinks">
                     <li><a href="#help">Get Help</a></li>
                     <li><a href="#faq">FAQs</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#" class="btn btn-outline">Sign In</a></li>
+                    <li><a href="#official">Official Help</a></li>
                 </ul>
             </nav>
         </div>
@@ -495,11 +462,11 @@
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1 class="fade-in">Venmo Help Center</h1>
-            <p class="fade-in delay-1">Your independent guide to using Venmo. Find solutions to common issues and learn how to get the most from your account.</p>
+            <h1 class="fade-in">Venmo Help Resources</h1>
+            <p class="fade-in delay-1">Independent guide to help you understand and resolve common Venmo issues.</p>
             <div class="hero-buttons fade-in delay-2">
-                <a href="#help" class="btn">Get Assistance</a>
-                <a href="#contact" class="btn btn-outline">Ask a Question</a>
+                <a href="#help" class="btn">Get Help</a>
+                <a href="#official" class="btn btn-outline">Official Venmo Help</a>
             </div>
         </div>
     </section>
@@ -508,26 +475,26 @@
     <section class="help-section" id="help">
         <div class="container">
             <div class="section-title fade-in">
-                <h2>How Can We Help You?</h2>
-                <p>Choose from our most common assistance options to quickly find the guidance you need.</p>
+                <h2>Common Venmo Solutions</h2>
+                <p>Find guidance for frequent Venmo-related questions and issues.</p>
             </div>
             <div class="help-options">
                 <div class="help-card fade-in delay-1">
                     <i class="fas fa-lock"></i>
                     <h3>Account Security</h3>
-                    <p>Learn how to secure your account, reset passwords, or recover a compromised account.</p>
+                    <p>Learn about securing your account, password resets, and account recovery options.</p>
                     <a href="#" class="btn">View Guide</a>
                 </div>
                 <div class="help-card fade-in delay-2">
                     <i class="fas fa-exchange-alt"></i>
-                    <h3>Payments & Transfers</h3>
-                    <p>Troubleshoot issues with sending or receiving money, bank transfers, or payments.</p>
+                    <h3>Payment Issues</h3>
+                    <p>Troubleshoot problems with sending or receiving money through Venmo.</p>
                     <a href="#" class="btn">View Guide</a>
                 </div>
                 <div class="help-card fade-in delay-3">
                     <i class="fas fa-credit-card"></i>
-                    <h3>Cards & Banks</h3>
-                    <p>Understand how to add or remove payment methods and connect bank accounts.</p>
+                    <h3>Bank Connections</h3>
+                    <p>Understand how to manage your linked bank accounts and cards.</p>
                     <a href="#" class="btn">View Guide</a>
                 </div>
             </div>
@@ -539,7 +506,7 @@
         <div class="container">
             <div class="section-title fade-in">
                 <h2>Frequently Asked Questions</h2>
-                <p>Find answers to common questions about using Venmo.</p>
+                <p>Answers to common questions about using Venmo.</p>
             </div>
             <div class="faq-container">
                 <div class="faq-item fade-in delay-1">
@@ -547,69 +514,50 @@
                         How do I reset my Venmo password?
                     </div>
                     <div class="faq-answer">
-                        <p>To reset your password, go to the Venmo login page and click "Forgot password?" Enter the email or phone number associated with your account, and you'll receive instructions to reset your password.</p>
+                        <p>To reset your password, visit the official Venmo login page and click "Forgot password?" You'll need to enter the email or phone number associated with your account to receive reset instructions.</p>
                     </div>
                 </div>
                 <div class="faq-item fade-in delay-2">
                     <div class="faq-question">
-                        Why is my payment pending?
+                        Why is my Venmo payment pending?
                     </div>
                     <div class="faq-answer">
-                        <p>Payments may be pending for several reasons: the recipient hasn't accepted the payment, there's an issue with your payment method, or Venmo's security team is reviewing the transaction. Most pending payments complete within 1-3 business days.</p>
+                        <p>Payments may show as pending if the recipient hasn't accepted the payment, there's an issue with your payment method, or if Venmo's security systems are reviewing the transaction. Most pending payments complete within 1-3 business days.</p>
                     </div>
                 </div>
                 <div class="faq-item fade-in delay-3">
                     <div class="faq-question">
-                        How do I add a bank account to Venmo?
+                        How do I link a bank account to Venmo?
                     </div>
                     <div class="faq-answer">
-                        <p>To add a bank account: 1) Tap the "☰" menu, 2) Select "Settings", 3) Tap "Payment Methods", 4) Select "Add bank or card", 5) Choose "Bank" and follow the instructions to connect your account.</p>
+                        <p>In the Venmo app: 1) Open the menu (☰), 2) Go to "Settings", 3) Select "Payment Methods", 4) Choose "Add bank or card", 5) Select "Bank" and follow the verification steps. You'll need your online banking credentials or account/routing numbers.</p>
                     </div>
                 </div>
                 <div class="faq-item fade-in delay-4">
                     <div class="faq-question">
-                        Is Venmo safe to use?
+                        What security features does Venmo offer?
                     </div>
                     <div class="faq-answer">
-                        <p>Venmo uses bank-level encryption and security measures to protect your information. They also offer purchase protection for eligible transactions and recommend enabling multi-factor authentication for added security.</p>
+                        <p>Venmo provides bank-level encryption, purchase protection for eligible transactions, and multi-factor authentication options. Always enable security notifications and use strong, unique passwords for financial accounts.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section class="contact-section" id="contact">
+    <!-- Official Help Section -->
+    <section class="official-section" id="official">
         <div class="container">
             <div class="section-title fade-in">
-                <h2>Need Further Assistance?</h2>
-                <p>Can't find what you're looking for? Send us your question and we'll try to help.</p>
+                <h2>Official Venmo Help Resources</h2>
+                <p>For direct assistance from Venmo, please use their official channels:</p>
             </div>
-            <form class="contact-form fade-in delay-1" id="assistanceForm">
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="subject">Question Type</label>
-                    <select id="subject" name="subject" required>
-                        <option value="">Select an option</option>
-                        <option value="account">Account Issues</option>
-                        <option value="payment">Payment Problems</option>
-                        <option value="security">Security Concerns</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="message">Your Question</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                <button type="submit" class="btn">Submit Question</button>
-            </form>
+            <div class="official-box fade-in delay-1">
+                <i class="fas fa-external-link-alt" style="font-size: 50px; color: var(--venmo-blue); margin-bottom: 20px;"></i>
+                <h3>Venmo Official Help Center</h3>
+                <p style="margin-bottom: 30px;">For account-specific issues or official support, visit Venmo's official help resources:</p>
+                <a href="https://help.venmo.com" target="_blank" rel="noopener noreferrer" class="btn">Visit Official Venmo Help</a>
+            </div>
         </div>
     </section>
 
@@ -619,28 +567,26 @@
             <div class="footer-content">
                 <div class="footer-column">
                     <h3>About This Guide</h3>
-                    <p>This is an independent resource providing assistance for Venmo users. We are not affiliated with Venmo or PayPal.</p>
+                    <p>This is an independent resource providing general information about Venmo. We are not affiliated with Venmo or PayPal.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="footer-column">
                     <h3>Quick Links</h3>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#help">Get Help</a></li>
+                        <li><a href="#help">Common Solutions</a></li>
                         <li><a href="#faq">FAQs</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#official">Official Help</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h3>Resources</h3>
                     <ul>
                         <li><a href="#">Help Articles</a></li>
-                        <li><a href="#">Community</a></li>
                         <li><a href="#">Security Tips</a></li>
+                        <li><a href="#">Payment Guides</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
@@ -653,7 +599,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 Venmo Help Guide. This is an independent resource not affiliated with Venmo or PayPal.</p>
+                <p>&copy; 2023 Venmo Help Guide. This is an independent resource not affiliated with Venmo or PayPal. Venmo and the Venmo logo are registered trademarks of PayPal, Inc.</p>
             </div>
         </div>
     </footer>
@@ -681,24 +627,6 @@
                     }
                 });
             });
-        });
-
-        // Form Submission
-        document.getElementById('assistanceForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form values
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const subject = document.getElementById('subject').value;
-            const message = document.getElementById('message').value;
-            
-            // Here you would typically send the form data to a server
-            // For this demo, we'll just show an alert
-            alert(`Thank you, ${name}! Your question has been submitted. We'll respond to ${email} regarding your ${subject} inquiry.`);
-            
-            // Reset form
-            this.reset();
         });
 
         // Smooth Scrolling for Anchor Links
